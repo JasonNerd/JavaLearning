@@ -42,7 +42,7 @@ public class Print {
         System.out.print(obj);
     }
     // The new Java SE5 printf() (from C):
-    public static PrintStream printf(String format, Object... arg){
+    public static PrintStream printf(String format, Object... args){
         return System.out.printf(format，args);
     }
 }
@@ -67,9 +67,9 @@ public class Range {
             result[i] = start + i;
         return result;
     }
-    // Produce a sequence {start..end) incrementing by step
+    // Produce a sequence [start..end) incrementing by step
     public static int[] range(int start, int end, int step) {
-        int sz = (end - start)/step;
+        int sz = 1 + (end - start)/step;
         int[] result = new int[sz];
         for(int i=0;i< sz; i++)
             result[i] = start + (i * step);
