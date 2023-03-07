@@ -1,7 +1,9 @@
 package com.rainbow.tijava.C09interface.music5;
 import static com.rainbow.utils.Print.*;
 
-import polymorphism.music.Note;
+enum Note{
+    MIDDLE_C, C_SHARP, B_FLAT;  // etc.
+}
 
 interface Instrument{
     int VAL = 226;  // static final public
