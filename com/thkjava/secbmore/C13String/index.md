@@ -1,7 +1,13 @@
 ---
 title: "第13章字符串"
-date: 2023-03-15T14:54:42+08:00
+date: 2023-03-16T22:40:41+08:00
+draft: false
+tags: ["Java", "Java编程思想"]
+categories: ["学习笔记"]
+twemoji: true
+lightgallery: true
 ---
+
 ## String 是不可变对象
 String对象是不可变的。查看JDK文档你就会发现，String类中每一个看起来会修改String值的方法，实际上都是创建了一个全新的String对象，以包含修改后的字符串内容。而最初的String对象则丝毫未动。这足以说明，upcase()返回的引用已经指向了一个新的对象，而原本的q则还在原地. String的这种行为方式其实正是我们想要的。例如
 ```java
@@ -69,6 +75,3 @@ C风格的格式化占位符控制输出，如下一例
 
 Java SE5也参考了C中的sprintf0方法，以生成格式化的String对象String.format0是一个static方法，它接受与Formatterformat0方法一样的参数，但返回一个String对象。当你只需使用format0方法一次的时候，String.format0用起来很方便。
 ![](./image/2023-03-15-17-27-45.png)
-
-## 相关文章
-[第12章异常](../第12章异常/)
