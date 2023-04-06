@@ -11,6 +11,8 @@ lightgallery: true
 如图为2023年 JavaWeb开发学习路线
 ![](./image/2023-04-05-20-04-57.png)
 
+![](./image/2023-04-06-15-32-19.png)
+
 ## 1. 前端技术
 HTML/CSS/JavaScript
 Ajax/Axios
