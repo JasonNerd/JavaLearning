@@ -3,7 +3,7 @@ title: "Web前端(2)-JavaScript-网页的行为与响应"
 date: 2023-04-07T16:53:04+08:00
 draft: false
 tags: ["web前端", "JavaScript"]
-categories: ["学习笔记"]
+categories: ["JavaWeb"]
 twemoji: true
 lightgallery: true
 ---

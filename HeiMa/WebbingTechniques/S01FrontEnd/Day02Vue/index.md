@@ -3,7 +3,7 @@ title: "Web前端(3)-Vue-简化开发的前端框架"
 date: 2023-04-12T20:35:40+08:00
 draft: false
 tags: ["web前端", "Vue"]
-categories: ["学习笔记"]
+categories: ["JavaWeb"]
 twemoji: true
 lightgallery: true
 ---
